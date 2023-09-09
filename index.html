@@ -3,40 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Mi Portafolio Personal</title>
+
+    <!-- Agrega enlaces a tus estilos CSS aquí -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+       
+       /* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #F0D7A9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Estilos para la sección de Inicio */
+
+#inicio {
+    background-color: #F5C3C2;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#inicio h1 {
+    font-size: 2em;
+}
+
+/* Estilos para la sección de Sobre Mí */
+
+#sobre-mi p {
+    font-size: 1.1em;
+}
+
+/* Estilos para la sección de Portafolio */
+
+#portafolio .proyecto {
+    margin-bottom: 20px;
+}
+
+#portafolio h3 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+/* Estilos para la sección de Habilidades */
+
+#habilidades ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#habilidades li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de Contacto */
+
+#contacto p {
+    font-size: 1.1em;
+}
+
+/* Estilos para enlaces */
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+       
+    </style>
+    
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a Mi Página Web</h1>
-    </header>
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mi Logo o Imagen de Cabecera" width="300" height="200">
+        <h1>¡Hola! Soy [Tu Nombre]</h1>
+        <p>Un [Tu Especialización] apasionado por [Tu Pasión o Enfoque].</p>
+    </section>
 
-    <nav>
+    <!-- Sección de Sobre Mí -->
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Me especializo en [Tu Área de Especialización]. Con [X años] de experiencia, me apasiona [Tu Misión o Propósito en el Campo].</p>
+    </section>
+
+    <!-- Sección de Portafolio -->
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <!-- Agrega tus proyectos y descripciones aquí -->
+        <div class="proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del Proyecto 1.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del Proyecto 2.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <!-- Enumera tus habilidades clave aquí -->
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>[Otras Habilidades]</li>
         </ul>
-    </nav>
+    </section>
 
-    <main>
-        <section>
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos una empresa dedicada a...</p>
-        </section>
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Estoy emocionado por colaborar en proyectos innovadores. ¡No dudes en ponerte en contacto conmigo!</p>
+        <!-- Agrega un formulario de contacto o información de contacto aquí -->
+    </section>
 
-        <section>
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Servicio 1</li>
-                <li>Servicio 2</li>
-                <li>Servicio 3</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Mi Página Web</p>
-    </footer>
+    <!-- Agrega un pie de página con derechos de autor o enlaces adicionales aquí -->
 </body>
 </html>
+
